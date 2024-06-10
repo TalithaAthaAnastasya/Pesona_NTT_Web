@@ -1,0 +1,717 @@
+.landingpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+.landingpage .labuan-img {
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.right .pola2-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.right {
+    text-align: center;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+
+
+.right p {
+    font-size: 45px;
+    color: #803D3B;
+    margin-bottom: 100px;
+}
+
+.right a {
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-bottom: 50px; 
+    text-decoration: none;
+    color: #333; 
+    background-color: #FFEBDA; 
+}
+
+
+.right a:hover {
+    color: #555; 
+}
+
+
+.container {
+    width: 93%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #803D3B; 
+    color: #FFF5E1; 
+    padding-top: 20px;
+    min-height: 50px;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+.labuanbajo {
+    width: 100%;
+    height: 100px; 
+    overflow: hidden;
+}
+
+.labuanbajo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center; 
+    position: relative; 
+    font-size: 18px; 
+    color: #803D3B; 
+  }
+  
+  h2:before,
+  h2:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    background-color: #803D3B; 
+  }
+  
+  h2:before {
+    left: 300px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  h2:after {
+    left: 50%;
+    right: 300px;
+    transform: translate(50%, -50%);
+  }
+  .slogan {
+    text-align: center;
+    font-size: 24px;
+    color: #803D3B;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gambar-kiri,
+  .gambar-kanan {
+    width: 70px; 
+    height: auto;
+    margin-right: 30px; 
+    margin-left: 30px;
+  }
+
+
+
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FFF5E1; 
+    text-decoration: none;
+}
+
+.informasi {
+    background-color: rgba(248, 199, 148, 0.9);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .informasi {
+    background-color: #FFF7EE;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .tentang {
+    width: 50%;
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+  
+  .hubungi {
+    width: 50%;
+    text-align: left;
+    margin-left: 40px;
+  }
+  
+  .tentang img {
+    width: 30px;
+    height:30px;
+    float: left;
+  }
+  
+  .tentang h3,
+  .hubungi h3 {
+    margin-top: 0;
+  }
+  .tentang p{
+    text-align: justify;
+  }
+
+
+.item {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 500px;
+    margin: 20px 10px 20px; 
+    background: #FFF5E1; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-top: 40px; 
+    margin-bottom: 200px;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.item h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: center; 
+}
+
+.item h4 {
+    margin: 10px 0;
+    font-size: 17px;
+    text-align: center; 
+}
+
+.item p {
+    margin: 0;
+    font-size: 16px;
+    text-align: justify; 
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+.item button {
+    margin-top: 30px; 
+}
+.cart-btn {
+    position: absolute; 
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding: 5px 10px;
+    background-color: #803D3B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px; 
+    width: 200px; 
+}
+
+
+
+form[name="form_delete"] {
+    position: absolute;
+    bottom: 10px; 
+    left: 0; 
+    width: 100%; 
+    text-align: center; 
+}
+
+
+form[name="form_delete"] button {
+    padding: 5px 10px;
+    background-color: #803D3B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px; 
+    width: 200px; 
+    margin-bottom: 20px;
+}
+form[name="invoice"] {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form[name="invoice"] button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form[name="invoice"] button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    padding-right: 100px;
+}
+.nothave {
+    text-align: center; 
+    font-size: 18px;
+}
+ h4 {
+    text-align: center; 
+    font-size: 24px;
+    color: #803D3B;
+
+ }
+
+
+.form-container {
+    width: 45%;
+    margin-bottom: 50px;
+}
+
+
+form[name="akun"] {
+    width: 100%;
+    padding: 20px;
+    background-color: #FFF5E1;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #803D3B; 
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    background-color: #803D3B; 
+    color: #FFF5E1; 
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6F4E37; 
+}
+
+
+
+
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.notification.error {
+    background-color: #f44336;
+}
+
+.delete-btn {
+    background-color: #ff4d4d; 
+    color: #fff;
+    border: none; 
+    padding: 8px 16px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.delete-btn:hover {
+    background-color: #ff6666; 
+}
+
+
+footer {
+    background: #803D3B;
+    color: #FFF5E1; 
+    text-align: center;
+    position: relative; 
+    margin-top: 30px;
+
+
+
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; 
+}
+
+table, th, td {
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
+}
+
+th {
+    background-color: #f2f2f2; 
+}
+
+
+th:first-child,
+td:first-child {
+    width: 5%;
+    text-align: center; 
+}
+
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 60%;
+}
+
+
+th:last-child,
+td:last-child {
+    width: 35%;
+    text-align: right; 
+}
+
+.container {
+    text-align: center; 
+}
+
+.wa button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.wa button:hover {
+    background-color: #45a049;
+}
+.keterangan {
+    background-color: #FFF7EE; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.keterangan p {
+    margin: 0; 
+}
+
+
+
+
+
+form[name="delete"] {
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+form[name="delete"] button {
+    padding: 5px 10px;
+    background-color: #803D3B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+  
+}
+
+
+.edit-button {
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+    background-color: #803D3B;
+    color: #FFFFFF !important;
+    text-align: center;
+    line-height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+   
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #A04D4B;
+}
+.tambah_data  {
+    position:fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #803D3B;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.tambah_data:hover {
+    background-color: #A04D4B;
+}
+
+
+.button-container {
+    position: relative; 
+    min-height: 100vh; 
+}
+
+.update {
+    background-color: #FFF5E1; 
+    color: #803D3B; 
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto; 
+    width: 80%; 
+    margin-bottom: 40px;
+    max-width: 800px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    ;
+}
+.update h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:#803D3B;
+}
+
+.update .form-group {
+    margin-bottom: 20px;
+}
+
+.update label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.update input[type="text"],
+.update input[type="number"],
+.update textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.update textarea {
+    height: 100px;
+}
+
+.update button {
+    background-color: #803D3B; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    width: 150px;
+    display: block; 
+    margin: 20px auto 0; 
+}
+
+.update button:hover {
+    background-color: #A04D4B; 
+}
+
+.update a {
+    background-color: #803D3B; 
+    color: #ffffff; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    display: inline-block;
+    margin-top: 20px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.update a:hover {
+    background-color: #A04D4B; 
+    color: white; 
+}
+
+.create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.create-form-container {
+    background-color: #FFF5E1;
+    color:#803D3B ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.create-form-container h4 {
+    margin-bottom: 20px;
+    color:#803D3B ;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.form-group input[type="file"] {
+    padding: 3px;
+}
+
+button[type="submit"] {
+    background-color: #803D3B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #A04D4B;
+}
+
+.nothave {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nothave a {
+    color: #803D3B;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nothave a:hover {
+    color: #A04D4B;
+}
+
+.loginadmin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
